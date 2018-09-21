@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formuário</title>
+</head>
+<body>
+	<form method="post" action="formulario.php">
+		<fieldset><legend><font color=FF530D>Dados</legend></font>
+			Estado:<select>
+				<optgroup label="Região Sudeste"> <!-- optgroup, Nomeia o grupo -->
+				<optgroup>
+				<option>ES</option>
+				<option>RJ</option>
+				<option>SP</option>
+				<option>MG</option>
+				</optgroup>
+				</select>
+			<h1>Comentário</h1>
+				<textarea rows=10 cols=20></textarea><br> <!--Espaço para comentário -->
+				<input type="submit" value="Se for reclamação eu ignoro"/><br>
+				<input type="button" value="Vai a merda para de falar"/><br>
+				<input type="reset" value="Apague se for reclamação"/><br> <!-- reset, Limpa a area de comentário -->
+			<label for="cor"></label>
+				<input type="color" name="cor" id ="cor"/></input>
+			Mínimo<input type="range" min=0 max=40/>Máximo <!--Barra de rolagem -->
+		<fieldset><legend>Calculadora</legend><center>
+			<table>
+				<tr>
+					<th><input type="submit" value="On"/></th>
+					<th><input type="submit" value="Off"/></th>
+					<th><input type="submit" value="  /  "/></th>
+					
+				</tr>
+				<tr>
+					<td><input type="submit" value=" 7  "/></td>
+					<td><input type="submit" value=" 8  "/></td>
+					<td><input type="submit" value=" 9  "/></td>
+					<td><input type="submit" value=" *  "/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value=" 4  "/></td>
+					<td><input type="submit" value=" 5  "/></td>
+					<td><input type="submit" value=" 6  "/></td>
+					<td><input type="submit" value=" -  "/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value=" 1  "/></td>
+					<td><input type="submit" value=" 2  "/></td>
+					<td><input type="submit" value=" 3  "/></td>
+					<td><input type="submit" value=" +  "/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value=" .  "/></td>
+					<td><input type="submit" value=" 0  "/></td>
+					<td><input type="submit" value=" =  "/></td>
+				</tr>
+			</table></center>
+				
+		</fieldset>	
+		</fieldset>
+	
+</body>
+</html>
