@@ -1,0 +1,39 @@
+h1{
+	text-indent:50px; /* text-indent, Para fazer especificar o recuo,um paragrafo */
+	letter-spacing:4px; /* letter-spacing, Para dar espaço entre os caracteres */
+	word-spacing:10px; /* word-spacing, Para dar espaço entre as palavras */
+	border:6px dotted #FF7E1F;
+	border-radius:45px;
+	background-clip:border-box; /* border-box, A cor fica dentro da borda */
+	background-color:#6BA7FF;
+}
+h2{
+	border:6px dotted #FF7E1F;
+	border-radius:45px;
+	background-color:#FFEA1F;
+	background-clip:padding-box; /* padding-box, A cor fica fora da borda */
+}
+#v{
+	border-left:6px solid #E8AA0C;
+	background-color:#0DFFAA;
+}
+#h{
+	border-bottom:6px dotted #CE20E8; /* dotted, Para inserir borda de bolinhas */
+}
+#r{
+	border-right:6px dashed #FFF954; /*dashed, Bordas tracejadas */
+	background-color:#0DFFAA;
+	border-style:solid; /* solid, Borda com linha sólida */
+}
+#c{
+	border-top:12px double #52F4FF; /*doble, Linhas duplas */
+	background-color:#BEFF54;
+}
+#z{
+	border-bottom:8px ridge #FFED27; /* ridge, Borda com estilo 3d com as cores ao contrário */
+	border-left:8px groove #529DFF; /* groove, Borda com estilo 3D */
+	border-right:8px outset #8E20E8; /* outset, Estilo 3d de alto relevo */
+	border-top:8px inset #E81AC0; /* inset, Efeito 3d de alto relevo */
+	background-color:#D353FF; /* none, Sem borda */
+	border-radius:45px; /* border-radius, Borda Curvada */
+}

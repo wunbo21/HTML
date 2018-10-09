@@ -1,0 +1,37 @@
+table,tr,td,th{
+	border-collapse:collapse;
+	border:4px solid #1DFF41;
+	font-family:"Bradley Hand ITC Regular";
+	font-size:20px;
+	width:100px;
+	height:50px;
+	text-align:right;
+	text-shadow:10px 10px 10px #E80E00;
+	box-shadow:10px 10px 10px  #B700FF;
+	padding:25px;
+	text-align:center;	
+}
+/*
+#n{
+	background-image:url("nagini2.jpg");
+	margin:50px;
+	background-repeat:no-repeat;
+}
+#v{
+	background-image:url("voldemort.jpg");
+	margin:50px;
+}
+#d{
+	background-image:url("dumbledore.jpg");
+	margin:50px;
+}
+#m{
+	background-image:url("minerva.jpg");
+	margin:50px;
+}*/
+tr:nth-child(even){
+	background-color:#3780FF;
+}
+tr:hover{
+	background-image:url("no.gif");
+}
