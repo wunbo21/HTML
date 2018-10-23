@@ -1,0 +1,75 @@
+#botao_1{
+    background-color :#00FF18;
+    color: #532BFF;
+    font-family: Georgia;
+    font-size: 14pt;
+    border: none;
+    border-radius: 50%;
+    padding: 15px 32px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px;
+    text-shadow: 0 8px 16px #CA0CE8;
+}
+
+#botao_1:hover{
+    background-color: #00FFFF;
+    color: #78FF03;
+}
+
+#botao_2{
+    background-color: #FF0007;
+    color: #01b231;
+    font-family: Franklin Gothic;
+    font-size: 14pt;
+    border: dashed;
+    border-radius: 50%;
+    padding: 15px 32px;
+    cursor: no-drop;
+    box-shadow: 0 8px 16px #FFDA03;
+    text-shadow: 0 8px 16px #B21601;
+}
+
+#botao_2:hover{
+    background-color: #CA0CE8;
+    color: #FF0007;
+}
+
+#botao_4{
+    background-color: #1CFF90;
+    color: #B21601;
+    font-family: Franklin Gothic;
+    font-size: 14pt;
+    border: dashed;
+    border-radius: 50%;
+    padding: 15px 32px;
+    cursor: move;
+    box-shadow: 0 8px 16px #FFC603;
+    text-shadow: 0 8px 16px #0014B2;
+}
+
+#botao_4:hover{
+    background-color: #DE24FF;
+    color: #97FF1D;
+}
+
+.disable{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.botao3{
+    background-color: #24B7FF;
+    border: none;
+    color: #B26301;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: help;
+    font-family: Segoe UI;
+    float: left;
+}
+
+.botao3:hover{
+    background-color: #9A00FF;
+    color: #99B201;
+}
