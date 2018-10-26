@@ -1,0 +1,51 @@
+body{
+	background-color: #16E882;
+}
+
+.txt{
+	font-family: "Agency FB";
+	color: #FF0DFF;
+	text-align: center;
+}
+
+.txt2{
+	font-family: "BankGothic";
+	color: #FF0000;
+	font-size: 14pt;
+}
+
+table tr,th,td{
+	border: 4px solid;
+	width: 120px;
+	height: 50px;
+	border-collapse: collapse;
+	border-color: #1400FF;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+form{
+	width: 500px;
+	margin: auto;
+}
+
+legend{
+	color: #FF0000;
+	font-size: 10pt;
+	font-family: Castellar Regular;
+	font-weight: bold;
+}
+
+fieldset{
+	border-color: #FFC622;
+	margin: 10px;
+	background-color: #EFFBFF;
+	border-width: 10px;
+	border-collapse: collapse;
+}
+
+#a{
+	background-color: #12E8D2;
+	margin: 50px;
+}
+
