@@ -1,63 +1,45 @@
 <!DOCTYPE html>
+
 <html>
-<head>	
+<head>
 	<meta charset="utf-8">
-	<title>Aula 13 Valendo 0,5 ponto</title>
 	<link rel="stylesheet" href="aula14.css">
+	<title>Aula 14 Container(Div e span)</title>
 </head>
 <body>
 	
-	<h1 class="txt">Fazendo trabalho valendo 0,5</h1>
-	<h2 class="txt2">Vamos ver a tabela, para ver se você tem chance de ganhar algum ponto</h2>
+	<!--Deiv e span são container genéricos, onde as divs são os container de bloco e o span container inline(Dentro do html) -->
+	
+	<!--
+	<div id="a">
+		<p>Teste</p>
+		<p>Teste</p>
+		<p>Teste</p>
+		<p>Teste</p>
+		<p>Teste</p>
+	</div>
+	
+	<div id="b">
+		<p>Prova<span style="color:red"> Av1</p></span>
+		<p>Prova<span style="color:red"> Av2</p></span>
+		<p>Prova<span style="color:red"> Av3</p></span>
+		<p>Prova<span style="color:red"> Av4</p></span>
+		<p>Média<span style="color:red"> Nota Final</p></span></p>
+	</div>
+    -->
 
-	<table>
-		
-		<tr>
-			<th id="a">Inicial do nome com a letra A-I</th>
-			<th id="a">Inicial do nome com a letra J-Q</th>
-			<th id="a">Inicial do nome com a letra Q-Z</th>			
-			<th id="a">Final do nome com a letra A-I</th>
-			<th id="a">Final do nome com a letra J-Q</th>
-			<th id="a">Final do nome com a letra Q-Z</th>	
-		</tr>
-		<tr>
-			<td id="a">37%</td>
-			<td id="a">98%</td>
-			<td id="a">12%</td>
-			<td id="a">48%</td>
-			<td id="a">100%</td>
-			<td id="a">3%</td>
-		</tr>
+	<!--Layout com 1 coluna: dividi-se a página em div de acordo com o layout da página, de maneira geral: 
 
-	</table>
+	1°layout do container, 2°layout header, 3°Layout content, 4°Layout left, 5°Layout right e 6°Layout footer -->
 
-	<a href="http://www.unilasalle.edu.br/rj/" target="_blank">Propangada da Lasalle para ver se ganho ponto!</a>
-
-	<form method="post" action="valendo_ponto.php">
-
-		<fieldset id="formulario"><legend>Dados do Aluno</legend>
-
-			<p><label for="nome">Nome:<input type="text" name="nome" id="nome" size=30 maxlength=60 placeholder="Nome Completo"/></p>
-			<p><label for="idade">Idade:<input type="number" name="idade"></p>
-			<p><label for="sexo1"><input type="radio" name="sexo" id="sexo1"checked/>Feminino</p>
-			<p><label for="sexo2"><input type="radio" name="sexo" id="sexo2"/>Masculino</p>
-			<p><label for="end">Logradouro:<input type="text" name="end" id="end"size=30 maxlength=60 placeholder="Rua, Av, Trav"/></p>
-			<p><label for="num">Numero:<input type="number" name="num" id="num" size=30 maxlength=60/></p>
-			<p><label for="est">Estado:<select>
-			<optgroup label="Região Sudeste"></optgroup>
-			<option value="Rio de Janeiro">RJ</option>
-			<option value="São Paulo">SP</option>
-			<option value= "Minas Gerais">MG</option>
-			<option value= "Espirito Santo">ES</option>
-			<optgroup label="Região Sul"></optgroup>
-			<option value="Parana">PR</option>
-			<option value="Rio Grande do Sul">RS</option></p>
-			<option value="Santa Catarina">ST</option></p>
-			</select>
-
-		</fieldset>
-
-	</form>
+	<div id="container">
+	<div id="header">Minha primeira div</div>
+	<div id="content"><br>Não tenha pena dos mortos. Tenha pena dos vivos, e, acima de tudo daqueles que vivem sem amor.</br></div>
+  
+	<!--O layout pode ser classificado através de 2 critérios: critério de numero de colunas ou o criterio de largura, as larguras podem ser: 
+	largura fixa - definida em px;
+	Largura liquida - definida em porcentagem;
+	Largura elástia - definidas através do tamanho da fonte -->
 
 </body>
 </html>
