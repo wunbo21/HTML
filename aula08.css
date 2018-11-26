@@ -1,0 +1,62 @@
+/* Comando para inserir comentário */
+
+/* Tag */
+
+p{
+    font-size: 20pt;
+    font-family:cursive;
+    color: deepskyblue;
+}
+
+body{
+    background-image: url(zelda.jpg); /* Comando para inserir imagem de fundo */
+    background-repeat: no-repeat /* Comando para não repetir a imagem */
+}
+
+/* ID */
+
+#p1{
+    font-size: 20pt;
+    font-family: fantasy;
+    color: #41CC87;
+}
+
+#p2{
+    font-size: 30pt;
+    font-family: inherit;
+    color: #9D41CC;
+}
+
+#p3{
+    font-size: 40pt;
+    font-family: monospace;
+    color: #3dc17f;
+}
+
+#p4{
+    font-size: 50pt;
+    font-family: sans-serif;
+    color: #9D41CC;
+}
+
+/* Grupo de seletores usando ID */
+
+#p1,#p3{
+    font-size: 25pt;
+    font-family: serif;
+    color: #77FF6B;
+}
+
+#p2,#p4{
+    font-size: 50pt;
+    font-family: "Arial Black";
+    border: 10px inset #FAABFF; /* O Primeiro valor é a espessura da borda, o Segundo valor é para definir o tipo de borda e o Terceiro valor é para definir a cor da borda */  
+}
+
+/* Classe */
+
+.txt{
+    font-family: "Boldoni";
+    color: aqua;
+    font-weight: 100 /*Comando para inserir a quantidade de negrito */
+}

@@ -1,0 +1,41 @@
+form{
+	width:500px;
+	margin:auto;
+}
+
+legend{
+	color:#1979FF;
+	font-size:10pt;
+	font-family:Castellar Regular;
+	font-weight:bold;
+}
+
+fieldset{
+	border-color:#8A2BE2;
+	margin:20px;
+	background:url("usuario.png") no-repeat; 
+	}
+	
+#sexo{
+	width:240px;
+	border-color:#FFFF00;
+}
+
+#endereco{
+	background:url("rua.jpg") no-repeat;
+}
+
+#mensagem{
+	background:url("email.jpg") no-repeat;
+
+}
+
+input:hover{
+	background-color:#cecece;
+}
+
+input,textarea{
+	font-family:"Verdana";
+	font-size:13pt;
+	background-color:rgba(255,255,255,0.6);
+}

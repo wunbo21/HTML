@@ -1,0 +1,59 @@
+h1{
+   text-indent: 50px; /* Propriedade usa para especificar um recuo, para o  paragrafo */
+   letter-spacing: 4px; /* Para dar espaço entre os caracteres de valores positivos */
+   word-spacing: 30px; /* Para dar espaço entre as palavras, valor negativo junta as palavras */
+   border: 6px dotted #d11ec3;
+   border-radius: 45px;
+   background-color: #1cd0d0; 
+}
+
+h2{
+    border:6px dotted #CC6699;
+	border-radius:45px;
+	background-color:#731Db1;
+}
+
+#a{
+    border-left:6px solid #000000; /* Para inserir borda do lado esquerdo */
+	background-color:#00FFFF;
+}
+
+#b{
+	border-bottom:6px dotted #9370DB; /* Para inserir borda na parte inferior */
+}
+
+#c{
+	border-right:6px dashed #000000; /* Para inserir borda do lado direito */
+	background-color:#FF0000;
+}
+
+#d{
+	border-top:6px double #53FFDA; /* Para inserir borda na parte superior */
+	background-color:#6D93FF;
+}
+
+#e{
+	border-bottom:8px ridge #9370DB;
+	border-left: 8px groove #53FFDA;
+	border-right:8px outset #00FA9A;
+	border-top:8px inset #CC6699;
+	background-color:#FFED27;
+	/* dotted-borda pontilhada;
+	solid - borda com linha sólida;
+	dashed - bordas tracejadas;
+	double - bordas com linhas duplas;
+	groove - borda com estilo 3D;
+	ridge - bordas com estilo 3D com as cores ao contrário;
+	inset - efeito 3D de baixo relevo;
+	outset - efeito 3D de alto relevo;
+	none - sem borda */
+}
+
+#f{
+	border-bottom:8px ridge #9370DB;
+	border-left: 8px groove #53FFDA;
+	border-right:8px outset #00FA9A;
+	border-top:8px inset #CC6699;
+	background-color:#FFED27;
+	border-radius:45px /* Comando usado para arredondar as bordas */
+}

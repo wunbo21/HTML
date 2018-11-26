@@ -1,0 +1,64 @@
+#botao{
+	background:linear-gradient(yellow,orange,red);
+	border:none;
+	color:white;
+	font-family:Calibri;
+	font-size:60px;
+	border-radius:12px;
+	cursor:pointer;
+	animation-name:botao;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+
+#botao:hover{
+	background:linear-gradient(green,orange,pink);
+	color:black;
+}
+
+div{
+	border:2px solid black;
+	width:150px;
+	height:150px;
+	position:relative;
+	background-color:#76A;
+	animation-name:div;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+
+/* Na animation-direction temos:
+normal- a animação é jogada para frente, esta é o padrão;
+reverse - a animação é reproduzida no sentido inverso , ou seja,
+para trás;
+alternate - a animação é jogada para frente primeiro, depois para 
+trás;
+alternate-reverse-a animação é jogada para trás primeiro, depois para  frente */
+
+@keyframes div{
+	0%{background-color:red; 
+	  left:0px; 
+	  top:0px;
+	}
+    
+	25%{background-color:yellow; 
+	    left:200px; 
+	    top:200px;
+	}
+    
+	50%{background-color:blue; 
+	    left:200px; 
+	    top:50px;
+	}
+    
+	75%{background-color:green; 
+	    left:200px; 
+	    top:900px;
+	}
+    
+	100%{background-color:pink; 
+	left:0px; 
+	top:80px;
+	}	
+}

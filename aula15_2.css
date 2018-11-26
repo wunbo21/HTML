@@ -1,0 +1,13 @@
+body{
+	background:linear-gradient(yellow,#9993FF,blue);
+	animation-name:body; /* Nome da animação */
+	animation-duration:15s; /* Tempo de duração */
+	animation-iteration-count:2 /* Quantidade de vezes a ser executada */
+	}
+
+@Keyframes body{
+	0%{background:url("c.gif")}
+	50%{background:url("b.gif")}
+	100%{background:url("e.gif")}
+    /* Para fazer animação utilizamos o @keyframes */
+}

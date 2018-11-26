@@ -1,0 +1,47 @@
+div{
+	border:2px solid #BBCCAA;
+	}
+
+#container{
+	width:950px;
+	margin:0px auto;
+	}
+
+#header{
+	height:20px;
+	background-color:#cecece;
+	font-size:14pt;
+	text-align:center;
+	color:white;
+	font-family:Verdana;
+	font-weight:bold;
+}
+
+#left{
+	float:left;
+	width:230px;
+	height:255px;
+	background-image:url("usuario.png");
+	color:#DDAACC;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:14pt;
+}
+
+#content{
+	float:right;
+	width:711px;
+	height:255px;
+	color: black;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10pt;
+	background-color:#EEAACC;
+	text-align:center;
+}
+
+#footer{
+	clear:both;
+	background:#FFEE44;
+	text-align:center;
+}

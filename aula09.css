@@ -1,0 +1,44 @@
+body{
+    background-image: url(confuso.gif), url(sepultura.jpg), url(vida.jpg);
+    background-repeat: no-repeat; /* Para repetir a imagem na horizontal, comando repeat-x ; e para repetir a imagem na vertical, comando repeat-y */
+    background-position: center top, right top, left top;
+    background-attachment: fixed; /* Para a imagem ficar fixa na página, ou seja, ela não vai rolar junto com a barra de rolagem  */
+    background-color: rgb(39, 94, 244);
+    opacity: 0.75;    
+}
+
+p{
+    margin-bottom: 2000px;
+}
+
+a{
+    text-decoration: none; /* Desenha(Quadrado) que envolve o texto ; o 'none' é para remover a borda */
+    color: #7fd3ff;
+    font-family: cursive;
+    font-size: 50pt;
+    font-weight: bold;
+    background-color: #27906d;
+    background-color: #e26518;
+}
+
+a:hover{
+    color: #19b21f;
+    background-color: #cc1d53;
+}
+
+/* texte-decoration para decorar o texto */
+
+h1{
+    text-decoration: overline; /* Para inserir uma linha em cima do texto */
+    text-transform:capitalize /*Para colocar a primeira letra da palavra maiuscula */
+}
+
+h2{
+    text-decoration: line-through; /* Para inserir um riscado */
+    text-transform: lowercase; /*Para colocar a primeira letra da palavra minuscula */
+}
+
+h3{
+    text-decoration: underline;
+    text-transform: uppercase; /*Para colocar todas as letras da palavra em maiuscula */
+}

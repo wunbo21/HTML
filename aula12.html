@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Aula 12 - Formulário com CSS</title>
+
+    <link rel="stylesheet" href="aula12.css"/>
+
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <form method="post" action="mailto:gondim@gmail.com">
+    
+    <fieldset id="usuario">      
+    <legend>Identificação do usuário</legend>
+
+        <p><label for="nome">Nome:<input type="text" name="nome" id="nome" size=30 maxlength=60 placeholder="Nome Completo"/></label></p>
+
+    
+        <p><label for="senha">Senha:<input type="password" name="senha" id="senha"size=30 maxlength=8 placeholder="8 digitos"/></label></p>
+
+        <p><label for="mail">E_mail:<input type="email" name="email" id="mail"size=30 maxlength=60 placeholder="E_mail"/></label>
+            
+
+    <fieldset id="sexo"><legend>Sexo</legend>
+
+        <p><label for="sexo1"><input type="radio" name="sexo" id="sexo1"checked/>Feminino</label></p>
+
+        <p><label for="sexo2"><input type="radio" name="sexo" id="sexo2"/>Masculino</label></p>
+
+    </fieldset>
+
+        <p><label for="nasc">Data de Nascimento:<input type="date" name="nascimento" id="nasc" size=30 maxlength=60/></label></p>
+
+    </fieldset>
+
+    <fieldset id="endereco"><legend>Endereço do usuário</legend>
+
+    
+        <p><label for="end">Logradouro:<input type="text" name="end" id="end"size=30 maxlength=60 placeholder="Rua, Av, Trav"/></label></p>
+
+        <p><label for="num">Numero:<input type="number" name="num" id="num" size=30 maxlength=60/></label></p>
+
+        <p><label for="cidade">Cidade:<input type="text" name="cidade" id="cidade" size=30 maxlength=60 placeholder="cidade" list="cidades"/></label></p>
+
+            <datalist id="cidades">
+            <option value="Rio de Janeiro"></option>
+            <option value="Niteroi"></option>      
+            <option value="Nova Iguaçu"></option>
+            <option value="Belford Roxo"></option>
+
+            </datalist>
+
+        <p><label for="est">Estado:<select>
+
+            <optgroup label="Região Sudeste"></optgroup>
+
+            <option value="Rio de Janeiro">RJ</option>
+
+            <option value="São Paulo">SP</option>
+
+            <option value= "Minas Gerais">MG</option>
+
+            <optgroup label="Região Sul"></optgroup>
+
+            <option>Parana</option>
+
+            <option>Rio Grande do Sul</option></select></label></p>
+
+    </fieldset>
+
+    <fieldset id="mensagem"><legend>Mensagem do usuário</legend><br/>
+
+        <p>Grau de Risco: Min<input type="range" min="0" max="20" step="5"/>Max
+
+        <p>Mensagem:<br><textarea cols=40 rows=10></textarea>
+
+    </fieldset><br>
+
+    </form>
+    
+</body>
+    
+</html>
